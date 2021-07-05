@@ -2,11 +2,14 @@ body{
     font-family: 'Roboto Slab', serif;
     margin: 0;
 }
-
+.flex-items{
+    display: flex;
+}
 .header-section{
     display: flex;
     background: #38A5DB;
     padding: 12px 0;
+    position:sticky top;
 }
 
 .logo{
@@ -85,17 +88,17 @@ body{
     font-size: 22px;
     margin-bottom: 100px;
 }
-.banner-items a{
+#resume{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
     border: 1.5px solid #fff;
     padding: 10px;
 }
-.banner-items a:hover{
+#resume:hover{
     border-bottom: 1.5px solid;
     background-image: linear-gradient(#38A5DB);
-    border-image-slice: 3;
+    border-image-slice: 9;
 }
 
 /* About section css */
@@ -118,7 +121,7 @@ body{
 
 /* service section css */
 .service-section{
-    padding: 40px;
+    margin: 40px 0;
 }
 .what-i-do{
     width: 60%;
@@ -136,4 +139,56 @@ body{
     font-size: 18px;
     color: rgb(175, 168, 168);
     margin-bottom: 60px;
+}
+
+
+.services-items{
+    padding-top: 50px;
+    width: 85%;
+    margin: auto;
+}
+.services-image{
+    width: 75%;
+    padding-right: 5%;
+}
+.services-image img{
+    max-width: 100%;
+}
+
+.services-body{
+    width: 100%;
+}
+
+.media-left{
+    width: 16%;
+}
+
+.media-left span i {
+    display: block;
+    font-size: 35px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+}
+.media-body{
+    width: 80%;
+}
+
+.media-body h2{
+    margin: 0;
+    font-size: 19px;
+    font-weight: 400;
+}
+.media-body p {
+    margin: 2px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.services-body-mb{
+    margin-bottom: 15px;
 }
