@@ -141,6 +141,10 @@ body{
     margin-bottom: 60px;
 }
 
+.services{
+    padding-bottom: 50px;
+}
+
 
 .services-items{
     padding-top: 50px;
@@ -191,4 +195,56 @@ body{
 
 .services-body-mb{
     margin-bottom: 15px;
+}
+
+/* Profile section css */
+.profile-section{
+    background-color: #38A5DB;
+    padding: 50px 0;
+}
+
+.who-am-i{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid rgb(202, 193, 193);
+}
+.who-am-i h1{
+    font-size: 30px;
+    color: #fff;
+}
+.who-am-i p{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: -20px;
+}
+
+.profile-items{
+    width: 70%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.about-img{
+    padding-right: 5%;
+}
+.about-img img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+.about-body{
+    color: #fff;
+}
+.about-body h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+.about-body p {
+    font-size: 18px;
+    padding: 25px 0;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 32px;
 }
